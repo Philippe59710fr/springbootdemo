@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.stage.SpringBootDockerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.588 s - in com.stage.SpringBootDockerApplicationTests
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.438 s <<< FAILURE! - in com.stage.SpringBootDockerApplicationTests
+testHome  Time elapsed: 0.181 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$" expected:<Hello Docker World v2> but was:<Hello Docker World>
+	at com.stage.SpringBootDockerApplicationTests.testHome(SpringBootDockerApplicationTests.java:31)
+

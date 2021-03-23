@@ -11,6 +11,6 @@ public class HomeRestController
   @RequestMapping("/api")
   public String home()
   {
-    return "Hello Docker World v2";
+    return "Hello Docker World";
   }
 }
