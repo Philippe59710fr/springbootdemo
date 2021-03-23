@@ -1,0 +1,5 @@
+github : https://github.com/Philippe59710fr/springbootdemo
+origin : https://nboost.visualstudio.com/stage/_git/stage
+
+git branch -M main
+git push -u origin main
