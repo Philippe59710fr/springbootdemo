@@ -26,10 +26,9 @@ class SpringBootDockerApplicationTests
 */
 	@Test
 	public void testHome() throws Exception {
-d
 		this.mockMvc.perform(get("/api")).andDo(print()).andExpect(status().isOk())
 //				.andExpect(jsonPath("$.content").value("Hello Docker World"));
-				.andExpect(jsonPath("$").value("Hello Docker World"));
+				.andExpect(jsonPath("$").value("Hello Docker World v2"));
 	}
 
 }
